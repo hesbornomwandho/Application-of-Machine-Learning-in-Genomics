@@ -28,10 +28,16 @@ For classification of SARS-CoV-2, representative genomic sequences data for the 
 ![Figure 1](https://github.com/mikemwanga/Application-of-Machine-Learning-in-Genomics/blob/main/Figure_1.png)
 
 [1]	H. A. Rothan and S. N. Byrareddy, “The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak,” Journal of Autoimmunity, vol. 109. 2020. doi: 10.1016/j.jaut.2020.102433.
+
 [2]	M. A. Shereen, S. Khan, A. Kazmi, N. Bashir, and R. Siddique, “COVID-19 infection: Origin, transmission, and characteristics of human coronaviruses,” Journal of Advanced Research, vol. 24. 2020. doi: 10.1016/j.jare.2020.03.005.
+
 [3]	S. Sethi and T. Chakraborty, “Molecular (real-time reverse transcription polymerase chain reaction) diagnosis of SARS-CoV-2 infections: Complexity and challenges,” Journal of Laboratory Medicine, vol. 45, no. 3. 2021. doi: 10.1515/labmed-2020-0135.
+
 [4]	D. A. Mendels et al., “Using artificial intelligence to improve COVID-19 rapid diagnostic test result interpretation,” Proceedings of the National Academy of Sciences of the United States of America, vol. 118, no. 12, Mar. 2021, doi: 10.1073/pnas.2019893118.
+
 [5]	O. P. Singh, M. Vallejo, I. M. El-Badawy, A. Aysha, J. Madhanagopal, and A. A. Mohd Faudzi, “Classification of SARS-CoV-2 and non-SARS-CoV-2 using machine learning algorithms,” Computers in Biology and Medicine, vol. 136, 2021, doi: 10.1016/j.compbiomed.2021.104650.
+
 [6]	G. S. Randhawa, M. P. M. Soltysiak, H. el Roz, C. P. E. de Souza, K. A. Hill, and L. Kari, “Machine learning using intrinsic genomic signatures for rapid classification of novel pathogens: COVID-19 case study,” PLoS ONE, vol. 15, no. 4, Apr. 2020, doi: 10.1371/journal.pone.0232391.
+
 [7]	Z. Bzhalava, A. Tampuu, P. Bała, R. Vicente, and J. Dillner, “Machine Learning for detection of viral sequences in human metagenomic datasets,” BMC Bioinformatics, vol. 19, no. 1, Sep. 2018, doi: 10.1186/s12859-018-2340-x.
 
