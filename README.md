@@ -27,6 +27,7 @@ For classification of SARS-CoV-2, representative genomic sequences data for the 
 
 ![Figure 1](https://github.com/mikemwanga/Application-of-Machine-Learning-in-Genomics/blob/main/Figure_1.png)
 
+## References <br>
 [1]	H. A. Rothan and S. N. Byrareddy, “The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak,” Journal of Autoimmunity, vol. 109. 2020. doi: 10.1016/j.jaut.2020.102433.
 
 [2]	M. A. Shereen, S. Khan, A. Kazmi, N. Bashir, and R. Siddique, “COVID-19 infection: Origin, transmission, and characteristics of human coronaviruses,” Journal of Advanced Research, vol. 24. 2020. doi: 10.1016/j.jare.2020.03.005.
