@@ -20,10 +20,15 @@ Machine learning (ML) is one of the most advanced AI techniques which has shown 
 ## Significance of Study <br>
 COVID-19 has brought with its immense burden to the healthcare system globally. Currently, vaccination is the only available control measure for control and spread of COVID-19, thus early identification of patients may facilitate provision of immediate and proper treatment in advance and reduce mortality. Implementing ML approach will serve to augment human diagnostic performance and show great potential and assist in management of COVID-19. Accurate classification will enable effective monitoring and tracking of SARS-CoV-2 variants and improve in control and management of the pandemic. 
 
-## Methods and workflow <br>
-This project will make use of publicly available dataset of positive and negative COVID-19 cases from Mexico. Details about the dataset can be found here link. Figure 1 shoes workflow for data preparation and model implementation to predict COVID-19 infections on epidemiological data. 
+## Methods
+### Dataset
+Classification of SARS-Cov-2 variants will make use of publicly available representative spike-protein sequence data downloaded from the GISADI and/or GenBank Databases.
 
-For classification of SARS-CoV-2, representative genomic sequences data for the spike protein of all SARS-CoV-2 variants will be downloaded from GISAID and GenBank databases. Sequence clean-up and analysis will be performed using publicly available bioinformatics tools such as AliView. Machine learning algorithms will be implemented using python packages and libraries such as pandas, SciPy, scikit, and TensorFlow. The data will be cleaned and labeled followed by feature extraction for ML predictions. Features extraction from genomic sequence data for machine learning purpose will be done using relative synonymous codon usage (RSCU) approach[6]. This approach makes use of the fact that proteins are made up of 20 amino acids which are coded by 64 codons. Since trinucleotide coding for the same amino acid are not random, some species prefer one codon over the other. RSCU values will be calculated by determined as the ratio of the observed number of codon occurrence to expected usage assuming uniform distribution[6]. This dataset will be split into training and testing for selection of appropriate ML models, which will in turn be used classifying the variants.
+### Data processing
+ML algorithms do make use of numerical data and since DNA sequences are in categorical form, some form of conversion using readly available tools will be implemented. In this study, label encoding and k-mer encoding techniques are used to convert the sequence data into numerical form. Seqeuences will first be converted into k-mers (which size will be appropriate, 3? In relation to codons?). This will result to k-mer patterns specific for each variant. The label-encoding process will implement LabelEncoder(), where, each k-mer is assigned a numerical value in a sequential manner. The resulting 2D sequence representation numerical matrix will be binarized using  LabelBinarizer(), figure 1. How do we deal with Ns and ambiguous nucleotides?
+
+### Classification model
+The resulting dataset is fed into a convolutional neural network model (CNN) for feature   extraction. CNN uses convolutionary layers to automatically extract features from a dataset as opposed to other models which require the user to manually extract important features. CNN contains several layers, one input, several hidden and one output layer and each layer contains several neurons and each neuron contains several parameters (link). 
 
 
 ![Figure 1](https://github.com/mikemwanga/Application-of-Machine-Learning-in-Genomics/blob/main/Figure_1.png)
