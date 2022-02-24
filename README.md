@@ -27,11 +27,12 @@ Classification of SARS-Cov-2 variants will make use of publicly available repres
 ### Data processing
 ML algorithms do make use of numerical data and since DNA sequences are in categorical form, some form of conversion using readly available tools will be implemented. In this study, label encoding and k-mer encoding techniques are used to convert the sequence data into numerical form. Seqeuences will first be converted into k-mers (which size will be appropriate, 3? In relation to codons?). This will result to k-mer patterns specific for each variant. The label-encoding process will implement LabelEncoder(), where, each k-mer is assigned a numerical value in a sequential manner. The resulting 2D sequence representation numerical matrix will be binarized using  LabelBinarizer(), figure 1. How do we deal with Ns and ambiguous nucleotides?
 
+![Image]("./images/Figure_2")
+
 ### Classification model
 The resulting dataset is fed into a convolutional neural network model (CNN) for feature   extraction. CNN uses convolutionary layers to automatically extract features from a dataset as opposed to other models which require the user to manually extract important features. CNN contains several layers, one input, several hidden and one output layer and each layer contains several neurons and each neuron contains several parameters (link). 
 
 
-![Figure 1](https://github.com/mikemwanga/Application-of-Machine-Learning-in-Genomics/blob/main/Figure_1.png)
 
 ## References <br>
 [1]	H. A. Rothan and S. N. Byrareddy, “The epidemiology and pathogenesis of coronavirus disease (COVID-19) outbreak,” Journal of Autoimmunity, vol. 109. 2020. doi: 10.1016/j.jaut.2020.102433.
