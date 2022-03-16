@@ -3,7 +3,7 @@
 ### Team Members
 1. Mike Mwanga
 2. Evans Mudibo
-3. Hesbon Omwondho
+3. Hesborn Omwanndho
 4. Olaitan Awe
 
 ## Background <br>
